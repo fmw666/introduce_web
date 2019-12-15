@@ -1,0 +1,165 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="webkit" name="renderer">
+    <meta name="keywords"
+        content="个人网站" />
+    <title>Hello Python~</title>
+    <!-- <link rel="icon" href="{% static 'm/img/bitbug_favicon.ico' %}" /> -->
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" />
+    <noscript>
+        <link rel="stylesheet" href="{% static 'css/noscript.css' %}" />
+    </noscript>
+    <style>
+		td {
+			vertical-align: middle;
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<span class="icon fa-gem"></span>
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1 style="text-transform: none;">Python 组</h1>
+					<p style="text-transform: none;">四川师范大学计算机科学学院 <a href="#">IT培优</a> 编程组之 Python 组介绍<br />
+						计算机科学学院 2017级1班 范茂伟.</p >
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#intro">自我介绍</a></li>
+					<li><a href="#work">涉及范围</a></li>
+					<li><a href="#about">培训内容</a></li>
+					<li><a href="#join">加入小组</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Intro -->
+			<article id="intro">
+				<h2 class="major">自我介绍</h2>
+				<span class="image main"><img src="{% static 'images/1.jpg' %}" width="100px" alt="" /></span>
+				<p>计算机科学学院 2017级 1班，<b>范茂伟</b> .</p> 
+				<p>前 IT培优 编程组 Windows组（今 C# 组）</p>
+			</article>
+
+			<!-- Work -->
+			<article id="work">
+				<h2 class="major">涉及范围</h2>
+				<ol>
+					<h3><li>计算机网络</li></h3>
+					<h3><li style="text-transform: none;">操作系统（Linux）</li></h3>
+					<h3><li>数据结构及算法</li></h3>
+					<h3><li style="text-transform: none;">Python 语言</li></h3>
+					<pre><code>#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+name = 'you'
+print('Welcome ' + name + ' to learn python.')</code></pre>
+				</ol>
+			</article>
+
+			<!-- About -->
+			<article id="about" style="width: 120%;">
+				<h2 class="major">培训内容</h2>
+				<blockquote>由于是第一届，所以还没有一个固定的培训模式 .</blockquote>
+				<div class="table-wrapper">
+					<table>
+						<thead>
+							<tr>
+								<th>课程名</th>
+								<th>描述</th>
+								<th>周次</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>小组发展</td>
+								<td>就是吹牛，顺带再选个组长.</td>
+								<td>第 1 周</td>
+							</tr>
+							<tr>
+								<td>Python 语言基础</td>
+								<td>看看大家具体情况，再适当调整后面计划</td>
+								<td>第 2 周</td>
+							</tr>
+							<tr>
+								<td>数据结构</td>
+								<td>栈和队列&ensp;|&ensp;图&ensp;|&ensp;排序算法等</td>
+								<td>第 3、4 周</td>
+							</tr>
+							<tr>
+								<td>应用程序及游戏开发</td>
+								<td>先讲 PyQt5 应用程序开发<br>再讲 pygame 游戏开发</td>
+								<td>5 - 7 周</td>
+							</tr>
+							<tr>
+								<td>Linux 基础</td>
+								<td>（可能不会有）基于 Python 的实现来解释和说明 .</td>
+								<td>第 8 周</td>
+							</tr>
+							<tr>
+								<td>网站开发</td>
+								<td>前端&ensp;|&ensp;网络编程&ensp;|&ensp;Web 框架</td>
+								<td>9 - 11 周</td>
+							</tr>
+							<tr>
+								<td>网络爬虫</td>
+								<td>前端&ensp;|&ensp;javaScript&ensp;|&ensp;爬虫</td>
+								<td>12、13 周</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="2"></td>
+								<td>第 14 周完</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</article>
+
+			<!-- Join -->
+			<article id="join" style="width: 100%;">
+				<h2 class="major">加入小组</h2>
+				<p>我应该这里放一个二维码的</p>
+			</article>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">&copy; <a href="#" title="IT培优">IT培优</a> 出品</p>
+		</footer>
+
+	</div>
+
+	<!-- BG -->
+	<div id="bg"></div>
+
+	<!-- Scripts -->
+	<script src="{% static 'js/jquery.min.js' %}"></script>
+	<script src="{% static 'js/browser.min.js' %}"></script>
+	<script src="{% static 'js/breakpoints.min.js' %}"></script>
+	<script src="{% static 'js/util.js' %}"></script>
+	<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
